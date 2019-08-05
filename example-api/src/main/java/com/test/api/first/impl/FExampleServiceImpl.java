@@ -1,6 +1,6 @@
-package first.impl;
+package com.test.api.first.impl;
 
-import first.FExampleService;
+import com.test.api.first.FExampleService;
 import org.springframework.stereotype.Component;
 
 /**
@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class FExampleServiceImpl implements FExampleService {
     @Override
-    public Object querySystemInitData() {
+    public Object queryExample() {
         return "出错了";
     }
 }

@@ -58,6 +58,14 @@
             <artifactId>spring-boot-starter-logging</artifactId>
         </dependency>
         <!-- 加入对其他包的依赖 -->
+        <dependency>
+            <groupId>com.test</groupId>
+            <artifactId>example-api</artifactId>
+            <version>${example-api.version}</version>
+        </dependency>
+
+
+
 
     </dependencies>
     <profiles>

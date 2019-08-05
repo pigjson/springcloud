@@ -20,11 +20,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
         <spring-cloud.version>Finchley.SR1</spring-cloud.version>
-        <example-api.version>0.0.1-SNAPSHOT</example-api.version>
+        <example-api.version>1.0-SNAPSHOT</example-api.version>
     </properties>
     <modules>
         <module>../example-eureka</module>
-        <module>../example</module>
         <module>../example-web</module>
         <module>../example-service</module>
         <module>../example-api</module>

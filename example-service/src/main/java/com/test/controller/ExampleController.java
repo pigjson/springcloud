@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -21,9 +20,8 @@ public class ExampleController {
 
     @RequestMapping("/testPost")
     @ResponseBody
-    public Object testPost(HttpServletRequest request){
-        String  ip = request.getHeader("HTTP_X_FORWARDED_FOR");
-        logger.info("--------------->来了一个请求"+ip);
+    public Object testPost(){
+        logger.info("我是service，我运行了");
         Map<String,Object> map = new HashMap<String,Object>(1);
         map.put("json","mysjson");
         return map;

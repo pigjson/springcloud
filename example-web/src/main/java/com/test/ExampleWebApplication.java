@@ -11,7 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @EnableCircuitBreaker
 @EnableHystrixDashboard
-@EnableFeignClients(basePackages = "com.test")
+@EnableFeignClients(basePackages = "com.test.api")
 public class ExampleWebApplication {
 
     public static void main(String[] args) {
