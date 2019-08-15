@@ -30,6 +30,7 @@
         <module>../example-api</module>
         <module>../example-extra</module>
         <module>../example-hystrix-turbine</module>
+        <module>../example-config</module>
     </modules>
     <dependencyManagement>
         <dependencies>
