@@ -63,7 +63,11 @@
             <artifactId>example-api</artifactId>
             <version>${example-api.version}</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.test</groupId>
+            <artifactId>example-extra</artifactId>
+            <version>${example-extra.version}</version>
+        </dependency>
 
 
 
